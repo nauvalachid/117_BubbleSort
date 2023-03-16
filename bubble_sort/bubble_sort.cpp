@@ -58,4 +58,12 @@ void display() {	// procedur untuk menampilkan hasil
 	}
 	cout << endl;							// Output baris kosong
 }
-	
+
+int main() {
+	input();		// Memanggil procedur 
+	unsorted();			// Memanggil procedur unsorted() dari
+	bubblesortArray();		// Memanggil procedur bubbleSortArray()
+	display();			// Memanggil procedur dispaly()
+
+	return 0;
+}
