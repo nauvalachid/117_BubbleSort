@@ -62,7 +62,7 @@ void display() {	// procedur untuk menampilkan hasil
 int main() {
 	input();		// Memanggil procedur 
 	unsorted();			// Memanggil procedur unsorted() dari
-	bubblesortArray();		// Memanggil procedur bubbleSortArray()
+	bubbleSortArray();		// Memanggil procedur bubbleSortArray()
 	display();			// Memanggil procedur dispaly()
 
 	return 0;
